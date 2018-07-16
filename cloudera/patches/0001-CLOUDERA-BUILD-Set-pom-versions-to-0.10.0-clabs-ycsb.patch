@@ -1,0 +1,516 @@
+From 8fa2349ef5cfc6c132484f92b248c8f7685b8f67 Mon Sep 17 00:00:00 2001
+From: Govind Kamat <gkamat@cloudera.com>
+Date: Thu, 22 Sep 2016 18:28:11 -0700
+Subject: [PATCH] [CLOUDERA-BUILD] Set pom versions to
+ 0.10.0-clabs-ycsb-1.6.0.
+
+---
+ accumulo/pom.xml                                   |    2 +-
+ aerospike/pom.xml                                  |    2 +-
+ asynchbase/pom.xml                                 |    2 +-
+ .../datastore-specific-descriptor/pom.xml          |    2 +-
+ binding-parent/pom.xml                             |    2 +-
+ cassandra/pom.xml                                  |    2 +-
+ cassandra2/pom.xml                                 |    2 +-
+ core/pom.xml                                       |    2 +-
+ couchbase/pom.xml                                  |    2 +-
+ couchbase2/pom.xml                                 |    2 +-
+ distribution/pom.xml                               |    2 +-
+ dynamodb/pom.xml                                   |    2 +-
+ elasticsearch/pom.xml                              |    2 +-
+ geode/pom.xml                                      |    2 +-
+ googlebigtable/pom.xml                             |    2 +-
+ googledatastore/pom.xml                            |    2 +-
+ hbase094/pom.xml                                   |    2 +-
+ hbase098/pom.xml                                   |    2 +-
+ hbase10/pom.xml                                    |    2 +-
+ hypertable/pom.xml                                 |    2 +-
+ infinispan/pom.xml                                 |    2 +-
+ jdbc/pom.xml                                       |    2 +-
+ kudu/pom.xml                                       |    2 +-
+ mapkeeper/pom.xml                                  |    2 +-
+ memcached/pom.xml                                  |    2 +-
+ mongodb/pom.xml                                    |    2 +-
+ nosqldb/pom.xml                                    |    2 +-
+ orientdb/pom.xml                                   |    2 +-
+ pom.xml                                            |    2 +-
+ rados/pom.xml                                      |    2 +-
+ redis/pom.xml                                      |    2 +-
+ riak/pom.xml                                       |    2 +-
+ s3/pom.xml                                         |    2 +-
+ solr/pom.xml                                       |    2 +-
+ tarantool/pom.xml                                  |    2 +-
+ voldemort/pom.xml                                  |    2 +-
+ 36 files changed, 36 insertions(+), 36 deletions(-)
+
+diff --git a/accumulo/pom.xml b/accumulo/pom.xml
+index 2675d13..f4968bb 100644
+--- a/accumulo/pom.xml
++++ b/accumulo/pom.xml
+@@ -22,7 +22,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   <artifactId>accumulo-binding</artifactId>
+diff --git a/aerospike/pom.xml b/aerospike/pom.xml
+index f6e7314..fefef21 100644
+--- a/aerospike/pom.xml
++++ b/aerospike/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/asynchbase/pom.xml b/asynchbase/pom.xml
+index 27d7c30..0827a6d 100644
+--- a/asynchbase/pom.xml
++++ b/asynchbase/pom.xml
+@@ -18,7 +18,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/binding-parent/datastore-specific-descriptor/pom.xml b/binding-parent/datastore-specific-descriptor/pom.xml
+index 2ad9d44..c12b235 100644
+--- a/binding-parent/datastore-specific-descriptor/pom.xml
++++ b/binding-parent/datastore-specific-descriptor/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>root</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../../</relativePath>
+   </parent>
+ 
+diff --git a/binding-parent/pom.xml b/binding-parent/pom.xml
+index a159f47..1ebe464 100644
+--- a/binding-parent/pom.xml
++++ b/binding-parent/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>root</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+   </parent>
+ 
+   <artifactId>binding-parent</artifactId>
+diff --git a/cassandra/pom.xml b/cassandra/pom.xml
+index 0b0a291..9460858 100644
+--- a/cassandra/pom.xml
++++ b/cassandra/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+      <groupId>com.yahoo.ycsb</groupId>
+      <artifactId>binding-parent</artifactId>
+-     <version>0.10.0</version>
++     <version>0.10.0-clabs-ycsb-1.6.0</version>
+      <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/cassandra2/pom.xml b/cassandra2/pom.xml
+index 16370c5..bf7e96c 100644
+--- a/cassandra2/pom.xml
++++ b/cassandra2/pom.xml
+@@ -23,7 +23,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/core/pom.xml b/core/pom.xml
+index cd1e1fb..250c4bf 100644
+--- a/core/pom.xml
++++ b/core/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>root</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+   </parent>
+   
+   <artifactId>core</artifactId>
+diff --git a/couchbase/pom.xml b/couchbase/pom.xml
+index 4d497a2..18e68b7 100644
+--- a/couchbase/pom.xml
++++ b/couchbase/pom.xml
+@@ -22,7 +22,7 @@ LICENSE file.
+     <parent>
+         <groupId>com.yahoo.ycsb</groupId>
+         <artifactId>binding-parent</artifactId>
+-        <version>0.10.0</version>
++        <version>0.10.0-clabs-ycsb-1.6.0</version>
+         <relativePath>../binding-parent</relativePath>
+     </parent>
+ 
+diff --git a/couchbase2/pom.xml b/couchbase2/pom.xml
+index c29192b..c256b20 100644
+--- a/couchbase2/pom.xml
++++ b/couchbase2/pom.xml
+@@ -23,7 +23,7 @@ LICENSE file.
+     <parent>
+         <groupId>com.yahoo.ycsb</groupId>
+         <artifactId>binding-parent</artifactId>
+-        <version>0.10.0</version>
++        <version>0.10.0-clabs-ycsb-1.6.0</version>
+         <relativePath>../binding-parent</relativePath>
+     </parent>
+ 
+diff --git a/distribution/pom.xml b/distribution/pom.xml
+index 00ab4e8..1bfe7d1 100644
+--- a/distribution/pom.xml
++++ b/distribution/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>root</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+   </parent>
+ 
+   <artifactId>ycsb</artifactId>
+diff --git a/dynamodb/pom.xml b/dynamodb/pom.xml
+index 28867e2..a308bc5 100644
+--- a/dynamodb/pom.xml
++++ b/dynamodb/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/elasticsearch/pom.xml b/elasticsearch/pom.xml
+index efe93b1..0c914e3 100644
+--- a/elasticsearch/pom.xml
++++ b/elasticsearch/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+     <parent>
+         <groupId>com.yahoo.ycsb</groupId>
+         <artifactId>binding-parent</artifactId>
+-        <version>0.10.0</version>
++        <version>0.10.0-clabs-ycsb-1.6.0</version>
+         <relativePath>../binding-parent</relativePath>
+     </parent>
+ 
+diff --git a/geode/pom.xml b/geode/pom.xml
+index 4fc5492..48a7a29 100644
+--- a/geode/pom.xml
++++ b/geode/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/googlebigtable/pom.xml b/googlebigtable/pom.xml
+index b1a5bd9..9794f3e 100644
+--- a/googlebigtable/pom.xml
++++ b/googlebigtable/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/googledatastore/pom.xml b/googledatastore/pom.xml
+index b94eb3e..33fc4d1 100644
+--- a/googledatastore/pom.xml
++++ b/googledatastore/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/hbase094/pom.xml b/hbase094/pom.xml
+index 109faa0..d014fa4 100644
+--- a/hbase094/pom.xml
++++ b/hbase094/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/hbase098/pom.xml b/hbase098/pom.xml
+index f95208e..0c60725 100644
+--- a/hbase098/pom.xml
++++ b/hbase098/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/hbase10/pom.xml b/hbase10/pom.xml
+index 90c3b14..298c367 100644
+--- a/hbase10/pom.xml
++++ b/hbase10/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/hypertable/pom.xml b/hypertable/pom.xml
+index 13791ae..0acc08e 100644
+--- a/hypertable/pom.xml
++++ b/hypertable/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/infinispan/pom.xml b/infinispan/pom.xml
+index 7f62d24..d999441 100644
+--- a/infinispan/pom.xml
++++ b/infinispan/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/jdbc/pom.xml b/jdbc/pom.xml
+index 45ea1f1..a21c40d 100644
+--- a/jdbc/pom.xml
++++ b/jdbc/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/kudu/pom.xml b/kudu/pom.xml
+index bbc6ab6..fe73b8e 100644
+--- a/kudu/pom.xml
++++ b/kudu/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/mapkeeper/pom.xml b/mapkeeper/pom.xml
+index 02496d7..22c461a 100644
+--- a/mapkeeper/pom.xml
++++ b/mapkeeper/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/memcached/pom.xml b/memcached/pom.xml
+index c16965b..a79b676 100644
+--- a/memcached/pom.xml
++++ b/memcached/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/mongodb/pom.xml b/mongodb/pom.xml
+index ba9a1f8..e1ab484 100644
+--- a/mongodb/pom.xml
++++ b/mongodb/pom.xml
+@@ -22,7 +22,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/nosqldb/pom.xml b/nosqldb/pom.xml
+index 07665e3..6ca37d0 100644
+--- a/nosqldb/pom.xml
++++ b/nosqldb/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/orientdb/pom.xml b/orientdb/pom.xml
+index afa8141..194bdd8 100644
+--- a/orientdb/pom.xml
++++ b/orientdb/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/pom.xml b/pom.xml
+index 7dcf411..0da674d 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+ 
+   <groupId>com.yahoo.ycsb</groupId>
+   <artifactId>root</artifactId>
+-  <version>0.10.0</version>
++  <version>0.10.0-clabs-ycsb-1.6.0</version>
+   <packaging>pom</packaging>
+ 
+   <name>YCSB Root</name>
+diff --git a/rados/pom.xml b/rados/pom.xml
+index c21df80..18ab2ce 100644
+--- a/rados/pom.xml
++++ b/rados/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/redis/pom.xml b/redis/pom.xml
+index c23926a..7000b5e 100644
+--- a/redis/pom.xml
++++ b/redis/pom.xml
+@@ -21,7 +21,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+   
+diff --git a/riak/pom.xml b/riak/pom.xml
+index 8d95d1f..378a9db 100644
+--- a/riak/pom.xml
++++ b/riak/pom.xml
+@@ -23,7 +23,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+   </parent>
+ 
+diff --git a/s3/pom.xml b/s3/pom.xml
+index a5f134b..acc4020 100644
+--- a/s3/pom.xml
++++ b/s3/pom.xml
+@@ -19,7 +19,7 @@ LICENSE file.
+     <parent>
+         <groupId>com.yahoo.ycsb</groupId>
+         <artifactId>binding-parent</artifactId>
+-        <version>0.10.0</version>
++        <version>0.10.0-clabs-ycsb-1.6.0</version>
+         <relativePath>../binding-parent</relativePath>
+     </parent>
+   
+diff --git a/solr/pom.xml b/solr/pom.xml
+index c31f10f..073b1ca 100644
+--- a/solr/pom.xml
++++ b/solr/pom.xml
+@@ -23,7 +23,7 @@ LICENSE file.
+ 	<parent>
+ 		<groupId>com.yahoo.ycsb</groupId>
+ 		<artifactId>binding-parent</artifactId>
+-		<version>0.10.0</version>
++		<version>0.10.0-clabs-ycsb-1.6.0</version>
+ 		<relativePath>../binding-parent</relativePath>
+ 	</parent>
+ 
+diff --git a/tarantool/pom.xml b/tarantool/pom.xml
+index e0e6ce1..4506cb6 100644
+--- a/tarantool/pom.xml
++++ b/tarantool/pom.xml
+@@ -22,7 +22,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent/</relativePath>
+   </parent>
+ 
+diff --git a/voldemort/pom.xml b/voldemort/pom.xml
+index 2d6743f..e79e78d 100644
+--- a/voldemort/pom.xml
++++ b/voldemort/pom.xml
+@@ -22,7 +22,7 @@ LICENSE file.
+   <parent>
+     <groupId>com.yahoo.ycsb</groupId>
+     <artifactId>binding-parent</artifactId>
+-    <version>0.10.0</version>
++    <version>0.10.0-clabs-ycsb-1.6.0</version>
+     <relativePath>../binding-parent</relativePath>
+    </parent>
+   
+-- 
+1.7.9.5
+

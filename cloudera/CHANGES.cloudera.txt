@@ -1,0 +1,5 @@
+commit 8fa2349ef5cfc6c132484f92b248c8f7685b8f67
+Author: Govind Kamat <gkamat@cloudera.com>
+Date:   Thu Sep 22 18:28:11 2016 -0700
+
+    [CLOUDERA-BUILD] Set pom versions to 0.10.0-clabs-ycsb-1.6.0.
